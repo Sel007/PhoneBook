@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
 
 namespace PhoneBookConsoleUI
 {
-    public static class Contact
+    public class Contact
     {
-        public static string FirstName {get; set;}
-        public static string LastName { get; set; }
-        public static string PhoneNumber { get; set; }
+        public string FirstName {get; set;}
+        public string LastName { get; set; }
+        public string PhoneNumber { get; set; }
     }
 }
